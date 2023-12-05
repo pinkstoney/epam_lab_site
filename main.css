@@ -8,6 +8,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -122,4 +123,9 @@ body {
   color: var(--dark);
   font-size: 18px;
   line-height: 1.4;
+}
+
+.swiper-container {
+  width: 40%; /* Adjust this value as needed */
+  margin: 0 auto;
 }
