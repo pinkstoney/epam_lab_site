@@ -1,6 +1,6 @@
 :root {
-    --primary: #bf00ff;
-    --secondary: #FE4880;
+    --primary: #f7f7c5;
+    --secondary: rgb(255, 255, 240);
     --dark: #212121;
     --light: #F3F3F3;
 }
@@ -130,7 +130,6 @@ body {
     margin: 0 auto;
 }
 
-/* Стили для кнопок Swiper */
 .swiper-button-next,
 .swiper-button-prev {
     position: absolute;
@@ -145,19 +144,20 @@ body {
     justify-content: center;
 }
 
-/* Стили для кнопки "Next" */
 .swiper-button-next {
     right: 10px;
 }
 
-/* Стили для кнопки "Prev" */
 .swiper-button-prev {
     left: 10px;
 }
 
-/* Размер карточки*/
 @media (max-width: 768px) {
     .swiper-container {
         width: 80%;
     }
+}
+
+.card__face--front h2 {
+    color: rgb(252, 156, 105)
 }
