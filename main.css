@@ -339,6 +339,10 @@ body {
     align-items: center;
 }
 
+.curator {
+    margin-bottom: 40px;
+    text-align:center;
+}
 
 .leader {
     font-family: 'Kaushan Script', cursive;
@@ -362,17 +366,32 @@ body {
 }
 
 .person-info__image {
+    position: relative;
     margin-top: 40px;
     width: 40%;
 }
 
 .person-info__image img {
+    position: relative;
+    z-index: 1;
     width: 100%;
     height: auto;
     max-width: 100%;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
+
+.person-info__image .crown {
+    position: absolute;
+    top: -40px; 
+    right: -40px; 
+    width: 100px; 
+    height: 100px; 
+    transform: rotate(45deg); 
+    box-shadow: none;
+}
+
+
 
 .services {
     justify-content: center;
