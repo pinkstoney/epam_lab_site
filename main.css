@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Robotot&display=swap');
 
 :root {
     --primary: rgb(248, 248, 248);
@@ -25,7 +26,7 @@ body {
     font-size: 15px;
     line-height: 1.6;
     background-color: var(--block-spacing-color);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Comfortaa', sans-serif; 
 }
 
 .logo {
@@ -100,6 +101,7 @@ body {
     color: #ffb3d4;
 }
 
+
 .nav__link:hover::after {
     opacity: 1;
 }
@@ -122,6 +124,8 @@ body {
 .intro__title {
     font-size: 115px;
     color: #fff8f8;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
 }
 
 .slider {
