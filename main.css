@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Robotot&display=swap');
 
 :root {
-    --primary: rgb(248, 248, 248);
-    --secondary: rgb(236, 240, 241);
+    --primary: rgb(240, 216, 255);
+    --secondary: rgb(241, 240, 236);
     --dark: #1b1215;
     --light: rgb(236, 240, 241);
-    --background-white: #ffffff;
-    --block-spacing-color: #f7f7f7ff;
+    --background-white: #fff;
+    --block-spacing-color: rgb(241, 240, 236);
 }
 
 *,
@@ -177,8 +177,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-bottom: 60px;
-    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-top: 1px; 
 }
 
 .card__inner {
@@ -212,7 +212,7 @@ body {
 }
 
 .card__face--front h2 {
-    color: rgb(252, 156, 105);
+    color: rgb(143, 96, 155);
     font-size: 32px;
 }
 
@@ -330,7 +330,7 @@ body {
     background-color: var(--block-spacing-color);
     flex-direction: column;
     margin-bottom: 40px;
-    margin-top: 100px;
+    margin-top: 1px;
 }
 
 .person-info__inner {
@@ -461,7 +461,6 @@ body {
 }
 
 .section__suptitle {
-    font-family: 'Kaushan Script', cursive;
     font-size: 24px;
     color: #333;
 }
