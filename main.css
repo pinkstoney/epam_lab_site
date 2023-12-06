@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Robotot&display=swap');
 
 :root {
@@ -8,6 +8,25 @@
     --light: rgb(236, 240, 241);
     --background-white: #fff;
     --block-spacing-color: rgb(241, 240, 236);
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 8px;
+    border: 3px solid #d4d4d4
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f7f7f7;
+    border-shadow: 0 0 2px rgba(0, 0, 0, .2) inset;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #7c7c7c;
 }
 
 *,
@@ -26,7 +45,7 @@ body {
     font-size: 15px;
     line-height: 1.6;
     background-color: var(--block-spacing-color);
-    font-family: 'Comfortaa', sans-serif; 
+    font-family: 'Comfortaa', sans-serif;
 }
 
 .logo {
@@ -178,7 +197,8 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 100px;
-    margin-top: 1px; 
+    margin-top: 1px;
+    height: 90vh;
 }
 
 .card__inner {
@@ -276,7 +296,6 @@ body {
     margin: 0 auto 30px;
     border-radius: 50%;
     background-color: #ffffff;
-    border: 5px solid #FFF;
     object-fit: cover;
 }
 
@@ -341,7 +360,7 @@ body {
 
 .curator {
     margin-bottom: 40px;
-    text-align:center;
+    text-align: center;
 }
 
 .leader {
@@ -354,7 +373,7 @@ body {
 
 .person-info__text h2 {
     font-size: 36px;
-    color: #333; 
+    color: #333;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -383,14 +402,13 @@ body {
 
 .person-info__image .crown {
     position: absolute;
-    top: -40px; 
-    right: -40px; 
-    width: 100px; 
-    height: 100px; 
-    transform: rotate(45deg); 
+    top: -40px;
+    right: -40px;
+    width: 100px;
+    height: 100px;
+    transform: rotate(45deg);
     box-shadow: none;
 }
-
 
 
 .services {
@@ -399,18 +417,19 @@ body {
 
 .services__item {
     display: flex;
+    flex: 1;
     align-items: center;
     margin-bottom: 20px;
 }
 
 .services__image {
-    margin-right: 15px; 
+    margin-right: 15px;
     margin-top: -75px;
 
 }
 
 .services__icon {
-    width: 25px; 
+    width: 25px;
     height: auto;
 }
 
@@ -444,7 +463,9 @@ body {
 
 .services__row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+
 }
 
 .section {
