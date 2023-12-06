@@ -1,105 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fep-11</title>
+
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="main.css"/>
+
+    <title>Fep-11</title>
 </head>
+
 <body>
-<div class="swiper-container">
-    <div class="swiper-wrapper" id="cardContainer"></div>
-    <div class="swiper-pagination"></div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
+
+
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="nav">
+                <a class="nav__link" href="#intro">Феп-11</a>
+                <a class="nav__link" href="#card-container">Студенти</a>
+                <a class="nav__link" href="#person-info">Куратор</a>
+                <a class="nav__link" href="#services">Здібності</a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="logo">
+        <img src="/images/logo.jpg">
+    </div>
+
+</header>
+
+<div class="intro" id="intro">
+    <div class="container">
+        <div class="intro__inner">
+            <h1 class="intro__title">Вас вітають</h1>
+            <h2 class="intro__fep">Феп-11</h2>
+        </div>
+    </div>
+</div>
+
+<div class="slider" id="slider">
+    <div class="container">
+        <div class="slider__inner">
+            <div class="slider__item active">
+                <span class="slider__num">01</span> Феп-11
+            </div>
+            <div class="slider__item">
+                <span class="slider__num">02</span> Студенти
+            </div>
+            <div class="slider__item">
+                <span class="slider__num">03</span> Куратор
+            </div>
+            <div class="slider__item">
+                <span class="slider__num">04</span> Здібності
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card-container" id="card-container">
+    <div class="swiper-container">
+        <div class="swiper-wrapper" id="cardContainer"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+
+<div class="person-info" id="person-info">
+    <div class="container">
+        <div class="person-info__inner">
+            <div class="person-info__text">
+                <h2 class="leader">Роман Мисюк</h2>
+                <p class="person-text">“Освітня програма Інженерія програмного забезпечення - це хороша можливість для
+                    студентів
+                    швидко ввійти в ІТ-сферу. Програма дає змогу спробувати широкий спектр можливостей від
+                    програмування вбудованих систем та Інтернету речей до штучного інтелекту, від проєктування
+                    програмних додатків до презентації рішень замовнику. Участь в школах, робота з менторами з
+                    ІТ-компаній, командні проєкти та участь у всіх етапах розробки програмних продуктів
+                    дозволяють на практиці відчути атмосферу та специфіку роботи сповна”.</p>
+            </div>
+            <div class="person-info__image">
+                <img src="/images/roman.png" alt="Person Photo">
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="section" id="services">
+    <div class="container">
+        <div class="section__header">
+            <h3 class="section__suptitle">Ось наші</h3>
+            <h2 class="section__title">Основні Здібності</h2>
+        </div>
+
+        <div class="services">
+            <div class="services__row">
+                <div class="services__item">
+                    <div class="services__image">
+                        <img class="services__icon" src="/images/python.png" alt="Python Image">
+                    </div>
+                    <div class="services__content">
+                        <div class="services__title">Python</div>
+                        <div class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <div class="services__image">
+                        <img class="services__icon" src="/images/Web.png" alt="Python Image">
+                    </div>
+                    <div class="services__content">
+                        <div class="services__title">WEB DESIGN</div>
+                        <div class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <div class="services__image">
+                        <img class="services__icon" src="/images/cs.png" alt="Python Image">
+                    </div>
+                    <div class="services__content">
+                        <div class="services__title">C#</div>
+                        <div class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services__line"></div>
+
+            <div class="services__row">
+                <div class="services__row">
+                    <div class="services__item">
+                        <div class="services__image">
+                            <img class="services__icon" src="/images/js.png" alt="Python Image">
+                        </div>
+                        <div class="services__content">
+                            <div class="services__title">JavaScrip</div>
+                            <div class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services__item">
+                        <div class="services__image">
+                            <img class="services__icon" src="/images/html-css.png" alt="Python Image">
+                        </div>
+                        <div class="services__content">
+                            <div class="services__title">CSS/HTML</div>
+                            <div class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services__item">
+                        <div class="services__image">
+                            <img class="services__icon" src="/images/git.png" alt="Python Image">
+                        </div>
+                        <div class="services__content">
+                            <div class="services__title">Git</div>
+                            <div class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="copyright" id="copyright">
+    <div class="container">
+        <p>© 2023 Fep-11. All rights reserved. Designed by Bogdan and Andrew.</p>
+    </div>
 </div>
 
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="main.js"></script>
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const cardData = [
-            {title: 'Card 1 Title', subtitle: 'Card 1 Subtitle', content: 'Card 1 Content', imageSrc: 'pic1.png'},
-            {title: 'Card 2 Title', subtitle: 'Card 2 Subtitle', content: 'Card 2 Content', imageSrc: 'pic2.png'},
-            {title: 'Card 3 Title', subtitle: 'Card 3 Subtitle', content: 'Card 3 Content', imageSrc: 'pic3.png'},
-            {title: 'Card 4 Title', subtitle: 'Card 4 Subtitle', content: 'Card 4 Content', imageSrc: 'pic4.png'},
-            {title: 'Card 5 Title', subtitle: 'Card 5 Subtitle', content: 'Card 5 Content', imageSrc: 'pic5.png'},
-            {title: 'Card 6 Title', subtitle: 'Card 6 Subtitle', content: 'Card 6 Content', imageSrc: 'pic6.png'},
-            {title: 'Card 7 Title', subtitle: 'Card 7 Subtitle', content: 'Card 7 Content', imageSrc: 'pic7.png'},
-            {title: 'Card 8 Title', subtitle: 'Card 8 Subtitle', content: 'Card 8 Content', imageSrc: 'pic8.png'},
-            {title: 'Card 9 Title', subtitle: 'Card 9 Subtitle', content: 'Card 9 Content', imageSrc: 'pic9.png'},
-            {title: 'Card 10 Title', subtitle: 'Card 10 Subtitle', content: 'Card 10 Content', imageSrc: 'pic10.png'},
-            {title: 'Card 11 Title', subtitle: 'Card 11 Subtitle', content: 'Card 11 Content', imageSrc: 'pic11.png'},
-            {title: 'Card 12 Title', subtitle: 'Card 12 Subtitle', content: 'Card 12 Content', imageSrc: 'pic12.png'},
-            {title: 'Card 13 Title', subtitle: 'Card 13 Subtitle', content: 'Card 13 Content', imageSrc: 'pic13.png'},
-            {title: 'Card 14 Title', subtitle: 'Card 14 Subtitle', content: 'Card 14 Content', imageSrc: 'pic14.png'},
-            {title: 'Card 15 Title', subtitle: 'Card 15 Subtitle', content: 'Card 15 Content', imageSrc: 'pic15.png'},
-            {title: 'Card 16 Title', subtitle: 'Card 16 Subtitle', content: 'Card 16 Content', imageSrc: 'pic16.png'},
-            {title: 'Card 17 Title', subtitle: 'Card 17 Subtitle', content: 'Card 17 Content', imageSrc: 'pic17.png'},
-            {title: 'Card 18 Title', subtitle: 'Card 18 Subtitle', content: 'Card 18 Content', imageSrc: 'pic18.png'},
-            {title: 'Card 19 Title', subtitle: 'Card 19 Subtitle', content: 'Card 19 Content', imageSrc: 'pic19.png'},
-            {title: 'Card 20 Title', subtitle: 'Card 20 Subtitle', content: 'Card 20 Content', imageSrc: 'pic20.png'},
-            {title: 'Card 21 Title', subtitle: 'Card 21 Subtitle', content: 'Card 21 Content', imageSrc: 'pic21.png'},
-            {title: 'Card 22 Title', subtitle: 'Card 22 Subtitle', content: 'Card 22 Content', imageSrc: 'pic22.png'}
-        ];
-
-        const cardContainer = document.getElementById('cardContainer');
-        const swiper = new Swiper('.swiper-container', {
-            slidesPerView: 1,
-            spaceBetween: 20,
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-        });
-
-        cardData.forEach((card, index) => {
-            const cardElement = document.createElement('div');
-            cardElement.classList.add('swiper-slide', 'card');
-            cardElement.id = `card${index + 1}`;
-
-            const cardInner = document.createElement('div');
-            cardInner.classList.add('card__inner');
-
-            const frontFace = document.createElement('div');
-            frontFace.classList.add('card__face', 'card__face--front');
-            frontFace.innerHTML = `<h2>${card.title}</h2>`;
-
-            const backFace = document.createElement('div');
-            backFace.classList.add('card__face', 'card__face--back');
-            backFace.innerHTML = `
-                    <div class="card__content">
-                        <div class="card__header">
-                            <img src="${card.imageSrc}" alt="" class="pp" />
-                            <h2>${card.title}</h2>
-                        </div>
-                        <div class="card__body">
-                            <h3>${card.subtitle}</h3>
-                            <p>${card.content}</p>
-                        </div>
-                    </div>
-                `;
-
-            cardInner.appendChild(frontFace);
-            cardInner.appendChild(backFace);
-            cardElement.appendChild(cardInner);
-
-            cardContainer.appendChild(cardElement);
-        });
-
-        const cards = document.querySelectorAll(".card__inner");
-
-        cards.forEach(function (card) {
-            card.addEventListener("click", function () {
-                card.classList.toggle('is-flipped');
-            });
-        });
-    });
-</script>
 </body>
+
 </html>
