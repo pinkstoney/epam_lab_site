@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 :root {
-    --primary: #f8eaf8;
+    --primary: rgb(248, 248, 248);
     --secondary: rgb(236, 240, 241);
     --dark: #1b1215;
     --light: rgb(236, 240, 241);
@@ -23,7 +25,7 @@ body {
     font-size: 15px;
     line-height: 1.6;
     background-color: var(--block-spacing-color);
-    font-family: Montserrat;
+    font-family: 'Poppins', sans-serif;
 }
 
 .logo {
@@ -95,7 +97,7 @@ body {
 }
 
 .nav__link:hover {
-    color: #0A134B;
+    color: #ffb3d4;
 }
 
 .nav__link:hover::after {
@@ -119,10 +121,9 @@ body {
 .intro__fep,
 .intro__title {
     font-size: 115px;
-    color: #333333;
+    color: #fff8f8;
 }
 
-/* Styles for Slider */
 .slider {
     width: 100%;
     position: absolute;
@@ -148,7 +149,6 @@ body {
     text-transform: uppercase;
 }
 
-/* Active Slide Highlight */
 .slider__item.active:before {
     content: "";
     display: block;
@@ -161,7 +161,6 @@ body {
     z-index: 1;
 }
 
-/* Card Styles */
 .card {
     margin: 100px auto 0;
     width: 400px;
@@ -169,7 +168,6 @@ body {
     perspective: 1000px;
 }
 
-/* Styles for Card Container */
 .card-container {
     background-color: var(--background-white);
     display: flex;
@@ -192,7 +190,6 @@ body {
     transform: rotateY(180deg);
 }
 
-/* Card Face Styles */
 .card__face {
     position: absolute;
     width: 100%;
@@ -225,7 +222,6 @@ body {
     height: 100%;
 }
 
-/* Card Header Styles */
 .card__header {
     position: relative;
     padding: 30px 30px 40px;
@@ -239,7 +235,6 @@ body {
     text-align: center;
 }
 
-/* Card Body Styles */
 .card__body {
     padding: 30px;
 }
@@ -281,7 +276,6 @@ body {
     object-fit: cover;
 }
 
-/* Styles for Swiper Container */
 .swiper-container {
     width: 100%;
     margin: 0 auto;
@@ -289,14 +283,12 @@ body {
     justify-content: center;
 }
 
-/* Styles for Swiper Container */
 .swiper-container {
     width: 60%;
     margin: 0 auto;
     position: relative;
 }
 
-/* Styles for Swiper Pagination */
 .swiper-pagination {
     position: absolute;
     bottom: 10px;
@@ -323,14 +315,13 @@ body {
     background-color: rgb(27, 18, 21);
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
     .swiper-container {
         width: 100%;
     }
 }
 
-/* Styles for Person Information */
+
 .person-info {
     background-color: var(--block-spacing-color);
     flex-direction: column;
@@ -344,7 +335,6 @@ body {
     align-items: center;
 }
 
-/* Styles for Person Information Text */
 
 .leader {
     font-family: 'Kaushan Script', cursive;
@@ -356,7 +346,7 @@ body {
 
 .person-info__text h2 {
     font-size: 36px;
-    color: #333; /*333*/
+    color: #333; 
     margin-bottom: 20px;
     text-align: center;
 }
@@ -367,7 +357,6 @@ body {
     line-height: 1.8;
 }
 
-/* Styles for Person Information Image */
 .person-info__image {
     margin-top: 40px;
     width: 40%;
@@ -381,7 +370,6 @@ body {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Services */
 .services {
     justify-content: center;
 }
@@ -393,13 +381,13 @@ body {
 }
 
 .services__image {
-    margin-right: 15px; /* Adjust the margin as needed */
+    margin-right: 15px; 
     margin-top: -75px;
 
 }
 
 .services__icon {
-    width: 25px; /* Adjust the width as needed */
+    width: 25px; 
     height: auto;
 }
 
@@ -463,7 +451,6 @@ body {
 }
 
 
-/* Styles for Copyright */
 .copyright {
     background-color: #333;
     color: #fff;
@@ -471,7 +458,6 @@ body {
     text-align: center;
 }
 
-/* Styles for Copyright Text */
 .copyright p {
     margin: 0;
     font-size: 14px;
